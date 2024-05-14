@@ -50,7 +50,7 @@ export default function App({ handlerKey }) {
 
   return (
     <div className="App">
-      <h1>React Dice Roll</h1>
+     
       <Dice cheatValue={cheatValue} onRoll={handleDiceRoll} />
       <div className="checkboxes">
         {[1, 2, 3, 4, 5, 6].map((num) => (
