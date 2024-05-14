@@ -49,7 +49,9 @@ export default function App({ handlerKey }) {
   };
 
   return (
-    <div className="App">
+    <div className="App" style={{
+      height:"100vh", display:"flex",alignItems:"center",justifyContent:"center", flexDirection:"column"
+    }}>
      
       <Dice cheatValue={cheatValue} onRoll={handleDiceRoll} />
       <div className="checkboxes">
